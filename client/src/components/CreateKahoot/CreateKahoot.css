@@ -1,0 +1,136 @@
+.navbar_create {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 1px solid black;
+    height: 10vh;
+  }
+
+  .li_create{
+      float: right;
+  }
+/* ----------------------------------------------------------------
+save btn */
+.btn_create{
+    margin-top: 2vh;
+    margin-right: 1vw;
+    width: 6vw;
+    height: 6vh;
+    border: 1px solid black;
+    color: rgb(70, 23, 143);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 3;
+    transition: .6s;
+}
+
+.btn_create:hover{
+    background-color: rgb(70, 23, 143);
+    color: white;
+}
+
+
+
+
+.type_create{
+    width: 12vw;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+
+.quastionType_create{
+    width: 20vw;
+    height: 75vh;
+    border: 1px solid rgb(102, 102, 102);
+    margin-top: 6vh;
+    margin-right: 2vw;
+    position: absolute;
+}
+
+
+
+.newQuastion_create{
+    width: 40vw;
+    height: 75vh;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 6vh;
+    margin-right: 30vw;
+    text-align: center;
+}
+
+.quastionName_create{
+    width: 30vw;
+    height: 5vh;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.quastionImage_create{
+    width: 15vw;
+    height: 25vh;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    line-height: 13;
+}
+
+.answer_create{
+    width: 15vw;
+    height: 6vh;
+    border: 1px solid black;
+    margin-top: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    transition: .6s;
+}
+
+.answer_hover1{
+    background-color: rgb(10, 79, 182);
+    color: white;
+}
+.answer_hover2{
+    background-color: rgb(228, 63, 22);
+    color: white;
+}
+.answer_hover3{
+    background-color: rgb(23, 143, 69);
+    color: white;
+}
+.answer_hover4{
+    background-color: rgb(255, 201, 52);
+    color: white;
+}
+
+
+
+
+.addBtn_create{
+    margin-top: 2vh;
+    margin-left: 5vw;
+    width: 6vw;
+    height: 6vh;
+    border: 1px solid black;
+    color: rgb(70, 23, 143);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 3;
+    transition: .6s;
+    float: left;
+}
+
+.addBtn_create:hover{
+    background-color: rgb(70, 23, 143);
+    color: white;
+}
+
+.clearAnswer{
+    color: black;
+    background-color: white;
+}

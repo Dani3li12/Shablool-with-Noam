@@ -1,0 +1,56 @@
+.quastion{
+    width: 40vw;
+    height: 75vh;
+    position: absolute;
+    margin-top: 6vh;
+    margin-right: 30vw;
+    text-align: center;
+}
+
+
+.answer{
+    width: 20vw;
+    height: 8vh;
+    border: 1px solid black;
+    justify-content: center;
+    line-height: 3.5;
+    margin: 15px;
+}
+
+.answers_create{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.answer1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: rgb(10, 79, 182);
+}
+.answer2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: rgb(228, 63, 22);
+}
+.answer3{
+    background-color: rgb(23, 143, 69);
+}
+.answer4{
+    background-color: rgb(255, 201, 52);
+}
+
+.answer_client{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    justify-content: center;
+    line-height: 3.5;
+    color: transparent;
+    cursor: pointer;
+}
+
+.right{
+    width: 100vw;
+    height: 100vh;
+}

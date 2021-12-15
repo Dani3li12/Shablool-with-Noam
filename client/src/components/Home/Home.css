@@ -1,0 +1,104 @@
+
+.homePage{
+    font-family: assistant;
+}
+
+
+/* ----------------------------------------------------------------
+navbar */
+
+.navbar_home {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 1px solid black;
+  }
+  
+  .li_home {
+    float: right;
+  }
+  
+  .li_home a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  .li_home a:hover{
+      color: rgb(70, 23, 143);
+      border-bottom: 2px solid rgb(70, 23, 143);
+  }
+
+  .name_home{
+    float: left;
+    margin-left: 2vw;
+  }
+
+
+/* ----------------------------------------------------------------
+create game btn */
+
+  .creatGame_home{
+      width: 12vw;
+      height: 6vh;
+      border: 1px solid black;
+      color: rgb(70, 23, 143);
+      border-radius: 5px;
+      cursor: pointer;
+      text-align: center;
+      margin-top: 10vh;
+      margin-right: 6vw;
+      line-height: 2.8;
+      transition: .6s;
+  }
+
+  .creatGame_home:hover{
+    background-color: rgb(70, 23, 143);
+    color: white;
+  }
+
+
+/* ----------------------------------------------------------------
+last played */
+
+  .lastPlayed_home{
+      width: 75vw;
+      height: 30vh;
+      border: 1px solid black;
+      margin-right: 8vw;
+      margin-top: 5vh;
+  }
+
+  .lastplayedTitle_home{
+      margin-right: 6vw;
+      font-weight: bold;
+  }
+
+
+
+
+/* ----------------------------------------------------------------
+libary*/
+  .container_libary{
+    width: 75vw;
+    height: 30vh;
+    border: 1px solid black;
+    margin-right: 8vw;
+    margin-top: 5vh;
+    display: flex;
+    font-family: assistant;
+}
+
+.image_libary{
+    border: 1px solid black;
+    height: 27vh;
+    width: 27vh;
+    margin-top: 1.3vh;
+    margin-right: 1vw;
+}
+
